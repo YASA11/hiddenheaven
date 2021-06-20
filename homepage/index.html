@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <section class="header">
+      <nav>
+        <img src="img/logoHH.png" alt="" />
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="articles.html">ARTICLES</a></li>
+          <li><a href="">MORE SERVICE</a></li>
+          <li><a href="">SUBSCRIBE</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h2 class="hero-text">HIDDEN HEAVEN</h2>
+        <div class="hero-content">
+          <a href="#latest" class="hero-btn">Let's Find</a>
+          <img src="img/logoatas.png" id="hero-logo" />
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="postcard" id="latest">
+        <h1>Latest Articles</h1>
+        <h3>Our More Recent Post</h3>
+        <div class="owl-carousel">
+          <div class="postcontent ">
+            <a href="content/gunungkelud.html"><img src="img/kelud.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href="content/sirahkencong.html"><img src="img/kencong.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href="content/sumberdandang.html"><img src="img/dandang.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href=""><img src="img/dandang.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="postcard" id="latest">
+        <h1>Latest Articles</h1>
+        <h3>Our More Recent Post</h3>
+        <div class="owl-carousel">
+          <div class="postcontent ">
+            <a href=""><img src="img/kelud.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href=""><img src="img/sr.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href=""><img src="img/dandang.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href=""><img src="img/dandang.png" alt="" /></a>
+          </div>
+        </div>
+        <a href="articles.html" class="button">explore more</a>
+      </div>
+      <div class="postcard" id="latest">
+        <h1>Latest Articles</h1>
+        <h3>Our More Recent Post</h3>
+        <div class="owl-carousel">
+          <div class="postcontent ">
+            <a href=""><img src="img/kelud.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href=""><img src="img/sr.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href=""><img src="img/dandang.png" alt="" /></a>
+          </div>
+          <div class="postcontent">
+            <a href=""><img src="img/dandang.png" alt="" /></a>
+          </div>
+        </div>
+        <a href="articles.html" class="button">explore more</a>
+      </div>
+    </main>
+    
+    <section id="footer1">
+      <h2>Subscribe</h2>
+      <h3>Sing-UP For News Update</h3>
+      <input type="email" id="email" name="email" placeholder="Email" /><br />
+      <a href="" class="button">SABMIT</a>
+    </section>
+
+    <footer>
+      <img src="img/logoHH.png" alt="" />
+      <ul>
+        <li><a href=""><img src="img/gugel.png" alt=""></a></li>
+        <li><a href=""><img src="img/Ig.png" alt=""></a></li>
+        <li><a href=""><img src="img/WA.png" alt=""></a></li>
+      </ul>
+    </footer>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

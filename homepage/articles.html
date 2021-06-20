@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="img/logoHH.png" alt="" /></a>
+        <div class="menu-toggle">
+        <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="articles.html">ARTICLES</a></li>
+            <li><a href="">MORE SERVICE</a></li>
+            <li><a href="">SUBSCRIBE</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="post">
+            <div class="post_content">
+                <a href=""><img src="img/kelud.png" alt="" /></a>
+            </div>
+            <div class="post_content">
+                <a href=""><img src="img/kencong.png" alt="" /></a>
+                <div class="post-body">
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="post_content">
+                <a href=""><img src="img/dandang.png" alt="" /></a>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post_content">
+                <a href=""><img src="img/kelud.png" alt="" /></a>
+            </div>
+            <div class="post_content">
+                <a href=""><img src="img/sr.png" alt="" /></a>
+            </div>
+            <div class="post_content">
+                <a href=""><img src="img/dandang.png" alt="" /></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="img/logoHH.png" alt="" />
+        <ul>
+          <li><a href=""><img src="img/gugel.png" alt=""></a></li>
+          <li><a href=""><img src="img/Ig.png" alt=""></a></li>
+          <li><a href=""><img src="img/WA.png" alt=""></a></li>
+        </ul>
+      </footer>
+    <script>
+    const menuToggle = document.querySelector(".menu-toggle input");
+    const nav = document.querySelector("nav ul");
+    menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+    });
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
